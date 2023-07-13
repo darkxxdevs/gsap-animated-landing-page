@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    color: white;
+    z-index: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
+
+img {
+    height: 45px;
+    width: 275px;
+}
+
+#nav {
+    display: flex;
+    height: 10 0px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#nav-mid {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#nav-right button {
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 20px;
+    border-right-color: black;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+#main h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 32;
+
+}
+
+#main h1 span {
+    background-color: #c92eb7;
+    border-radius: 40px;
+    padding: 0 20px;
+    margin: 0 40px;
+    font-size: 40px;
+}
+
+#everything {
+    margin: 30px 0 0 0;
+}
+
+#img-left {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+    border-radius: 20px;
+}
+
+#img-right {
+    height: 339px;
+    width: 281px;
+    position: absolute;
+    bottom: 115px;
+    right: 211px;
+    border-radius: 20px;
+
+}
+
+#main>h5 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+
+}
